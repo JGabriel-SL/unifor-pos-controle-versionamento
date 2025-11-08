@@ -81,3 +81,18 @@ PS>echo "v3 main" >> app.txt
 PS>git add .
 
 ]633;E;git add .;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git commit -am "v3 main"
+
+]633;E;git commit -am "v3 main";96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git push origin main
+
+]633;E;git push origin main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git status
+
+]633;E;git status;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git branch
+
+]633;E;git branch;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git log --oneline --all
+
+]633;E;git log --oneline --all;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
