@@ -1,0 +1,83 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20251107214335
+Nome de Usuário: TEXTIL\gabriel.lima
+Executar como Usuário: TEXTIL\gabriel.lima
+Nome da Configuração: 
+Computador: ADM-TI-028 (Microsoft Windows NT 10.0.22631.0)
+Aplicativo Host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\gabriel.lima\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ID do Processo: 35464
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é lab2-sessao1.txt
+]633;E;Start-Transcript -Path lab2-sessao1.txt;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git branch test
+
+]633;E;git branch test;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git branch prod
+
+]633;E;git branch prod;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git branch -a
+
+]633;E;git branch -a;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>echo "v2 main" >> app.txt
+>> ParameterBinding(Out-File): nome="InputObject"; valor="v2 main"
+]633;E;echo "v2 main" >> app.txt;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git commit -am "v2 main"
+nothing added to commit but untracked files present (use "git add" to track)
+]633;E;git commit -am "v2 main";96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git checkout test
+
+]633;E;git checkout test;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git merge main
+
+]633;E;git merge main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git checkout main
+
+]633;E;git checkout main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git status
+
+]633;E;git status;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git add app.txt
+
+]633;E;git add app.txt;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git push
+
+]633;E;git push;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git push origin main
+
+]633;E;git push origin main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git commit -am "v2 main"
+
+]633;E;git commit -am "v2 main";96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git push origin main
+
+]633;E;git push origin main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git checkout test
+
+]633;E;git checkout test;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git merge main
+
+]633;E;git merge main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git checkout prod
+
+]633;E;git checkout prod;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git merge test
+
+]633;E;git merge test;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git checkout main
+
+]633;E;git checkout main;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>echo "v3 main" >> app.txt
+>> ParameterBinding(Out-File): nome="InputObject"; valor="v3 main"
+]633;E;echo "v3 main" >> app.txt;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
+PS>git add .
+
+]633;E;git add .;96cfcfc7-e03c-4402-b652-37f66ef66cb1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cgabriel.lima\x5cDocuments\x5cunifor-git\x5cgit-workshopPS C:\Users\gabriel.lima\Documents\unifor-git\git-workshop> ]633;B
